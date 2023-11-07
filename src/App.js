@@ -7,10 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-  <iframe
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; screen-wake-lock"
-    src="https://stagetimer.io/r/DEMO0001/"
-  />
+  <div
+    style={{
+      color: 'red'
+    }}
+  >
+    First node spell app done. WOW
+  </div>
 </div>
         <div style={{ color: 'gray' }}>Deployed with NodeSpell</div>
       </header>
